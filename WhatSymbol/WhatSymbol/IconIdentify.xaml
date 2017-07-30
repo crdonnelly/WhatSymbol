@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WhatSymbol.IconIdentify" Title="Identify Icon">
+    <ContentPage.Content>
+        <StackLayout Margin="20" Orientation="Vertical">
+            <Image x:Name="IconAnalysis" VerticalOptions="CenterAndExpand" />
+            <Label x:Name="TagLabel" />
+            <Button Text="Take Photo!" Clicked="loadCamera"
+                    VerticalOptions="EndAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
